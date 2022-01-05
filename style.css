@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: green;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.photo img{
+    width: 300px;
+    padding-left: 20px;
+}
+.details-btn{
+    color: greenyellow;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,green,red,green);
+}
+.details-btn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.second-section{
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.all-divisions{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.dhaka{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chottogram{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.rajshahi{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.image img{
+    width: 100%;
+}
+
+.bottom-section{
+    padding: 15px;
+}
+
+.deials-btn{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    transition: .8s;
+}
+.deials-btn:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
